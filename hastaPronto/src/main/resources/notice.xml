@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class ="controller.notice.NoticeController"/>
+	<bean class ="service.notice.NoticeRegistService" id="noticeRegistService"/>
+	<bean class ="service.notice.NoticeListService" id="noticeListService"/>
+	<bean class ="service.notice.NoticeDetailService" id="noticeDetailService"/>
+	<bean class ="service.notice.NoticeModifyService" id="noticeModifyService"/>
+	<bean class ="service.notice.NoticeDeleteService" id="noticeDeleteService"/>
+	<bean class ="service.notice.FileDownService" id="fileDownService"/>
+	<bean class ="repository.notice.NoticeRepository" id="noticeRepository"/>
+
+</beans>

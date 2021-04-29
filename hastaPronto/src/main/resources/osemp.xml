@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="controller.osemployees.OsEmployeesController" />
+	<bean class="service.osemployees.OsEmpService" />
+	<bean class="repository.osemployees.OsEmpRepository" />
+	<bean class="service.osemployees.OsEmpListService" />
+	<bean class="service.osemployees.OsEmpDetailService" />
+	<bean class="service.osemployees.OsEmpModifyService" />
+	<bean class="service.osemployees.OsEmpDeleteService" />
+</beans>

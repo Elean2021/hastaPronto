@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="controller.wedPay.WedPayController" />
+	<bean id="wedPayFormService" class="service.wedPay.WedPayFormService" />
+	<bean id="wedPayOkService" class="service.wedPay.WedPayOkService" />
+	<bean id="wedPayRepository" class="repository.wedPay.WedPayRepository" />
+	<bean id="wedPmInfoService" class="service.wedPay.WedPmInfoService" />
+	<bean id="wedPmListService" class="service.wedPay.WedPmListService" />
+</beans>
